@@ -1,0 +1,11 @@
+<a class="single-view-anchor" href="javascript:void(0);">Single View</a>
+|
+<a class="nested-view-anchor" href="javascript:void(0);">Nested View</a>
+<h2>Log:</h2>
+<ul>
+    <% _.each(entries, function(entry) { %>
+        <li>
+            <%= entry.name %>
+        </li>
+    <% }); %>
+</ul>

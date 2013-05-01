@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    background-color: #228866;
+}
+
+#log-placeholder, #view {
+    float: left;
+}
+
+#log-placeholder {
+    width: 30%;
+}
+
+#view {
+    width: 70%;
+}
+
+.nested-view, .single-view, .log {
+    padding: 10px;
+    margin: 10px;
+}
+
+.log {
+    height: 100%;
+    border: 1px solid #FFFFFF;
+}
